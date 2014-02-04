@@ -1,0 +1,22 @@
+I had the week off so I decided this would be a great opportunity to try out some of the more advanced tools for building Java programs that I've been meaning to try including Maven, JUnit, CheckStyle, FindBugs, and JavaDoc.
+
+I used Maven to build my template instead of NetBeans and then went through and added my own code through Sublime Text.
+Link to my code on GitHub: https://github.com/benbunk/CMIS141/blob/master/HelloWorldDemo/src/main/java/edu/umuc/cmis141/helloworlddemo/App.java
+
+To make a functioning JUnit test it required adding a new method.
+
+Here is the JUnit Test.
+Link to my code on Github: https://github.com/benbunk/CMIS141/blob/master/HelloWorldDemo/src/test/java/edu/umuc/cmis141/helloworlddemo/AppTest.java
+
+I think this commenting style clearly indicates which method applies to which section (input/conditions/output) but please let me know if I should do it differently?
+
+Finally, Maven packages all of my code in a JAR file so I had to include the class path and the entire package declaration to run the program.
+	java -cp target/HelloWorldDemo-1.0-DEV.jar edu.umuc.cmis141.helloworlddemo.App
+
+
+
+The cool thing about Maven is it spits out a complete website for each project that can be automatically uploaded to github complete with all the reports from JavaDoc, CheckStyle, FindBugs, and Maven itself. Here are links to everything:
+	Project Summary - http://benbunk.github.io/CMIS141/HelloWorldDemo/project-summary.html
+	JavaDoc - http://benbunk.github.io/CMIS141/HelloWorldDemo/apidocs/index.html
+	CheckStyle - http://benbunk.github.io/CMIS141/HelloWorldDemo/checkstyle.html
+	FindBugs - http://benbunk.github.io/CMIS141/HelloWorldDemo/findbugs.html
