@@ -1,7 +1,7 @@
-CMIS140
+CMIS141
 =======
 
-Collection of code from UMUC CMIS 140
+Collection of code from UMUC CMIS 141.
 
 Grading
 =======
@@ -26,6 +26,8 @@ Coding Style for this Class
 ===========================
 
 1. File Description
+
+```java
 /**
  *
  * @author Benjamin Bunk
@@ -33,11 +35,12 @@ Coding Style for this Class
  * CMIS 141 6980 Introductory Programming (2142)
  * [Date]
  */
+```
 
 2. Comments
   Comments on the opening and closing braces are encouraged by the professor.
+    ```java
     public static void main (String[] args) { // This is the beginning of Package.main method.
       // Input/Ouput/Logic Here.
     } // End of main method.
-
-3.
+    ```

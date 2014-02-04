@@ -45,32 +45,31 @@ Pre-Requisite Reading
 ======================
 
 1. Coding Conventions
-  http://www.oracle.com/technetwork/java/javase/documentation/codeconvtoc-136057.html
-  http://www.oracle.com/technetwork/java/codeconv-138413.html
-  http://geosoft.no/development/javastyle.html
+  http://www.oracle.com/technetwork/java/javase/documentation/codeconvtoc-136057.html  
+  http://www.oracle.com/technetwork/java/codeconv-138413.html  
+  http://geosoft.no/development/javastyle.html  
   http://yohanan.org/steve/projects/java-code-conventions/
 
 2. Documentation Style
-  Java Doc
-    Documentation - http://www.oracle.com/technetwork/java/javase/documentation/index-137868.html
-    Reference - http://www.oracle.com/technetwork/java/javase/documentation/index-jsp-135444.html
+  Java Doc  
+    Documentation - http://www.oracle.com/technetwork/java/javase/documentation/index-137868.html  
+    Reference - http://www.oracle.com/technetwork/java/javase/documentation/index-jsp-135444.html  
     Semantics - http://www.oracle.com/technetwork/java/javase/documentation/index-142372.html
 
 3. Testing
-  JUnit
-    Wiki - https://github.com/junit-team/junit/wiki
+  JUnit  
+    Wiki - https://github.com/junit-team/junit/wiki  
     Reference - https://github.com/junit-team/junit/wiki/Assertions
 
 3. Build Tools
-  JAVAC - cd src && javac [PACKAGE]/MainClass.java
-  JAVA - cd SRC && java [PACKAGE].MainClass
-  Maven
-    Getting started in 5 minutes - http://maven.apache.org/guides/getting-started/maven-in-five-minutes.html
-    Getting started in 30 minutes - 
-  Travis CI
-    Getting Started - http://docs.travis-ci.com/user/getting-started/
+  JAVAC - cd src && javac [PACKAGE]/MainClass.java  
+  JAVA - cd SRC && java [PACKAGE].MainClass  
+  Maven  
+    Getting started in 5 minutes - http://maven.apache.org/guides/getting-started/maven-in-five-minutes.html  
+    Getting started in 30 minutes -  
+  Travis CI  
+    Getting Started - http://docs.travis-ci.com/user/getting-started/  
     
-
 2. Project Hierarchy
   Directory Configurations
 
@@ -103,7 +102,7 @@ Maven Example pom.xml
 
 This example POM includes javadoc and base encoding that isn't included in the archetype getting started.
 
-<pre>
+```XML
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
@@ -143,4 +142,4 @@ This example POM includes javadoc and base encoding that isn't included in the a
   </plugins>
 </build>
 </project>
-</pre>
+```
