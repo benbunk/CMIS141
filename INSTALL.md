@@ -2,15 +2,21 @@ Cheat Sheet
 ===========
 
 1. Maven
+```bash
   mvn archetype:generate -DgroupId=com.mycompany.app -DartifactId=my-app -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
-
+```
+```bash
   mvn compile
-
+```
+```bash
   mvn test
-
+```
+```bash
   mvn package
-
+```
+```bash
   mvn clean 
+```
 
 Pre-Requisite Software
 ======================
