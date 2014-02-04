@@ -1,4 +1,6 @@
 /**
+ * HelloWorld Discussion Assignment.
+ *
  * The HelloWorldDemo program is built to display a message to the end user.
  *
  * Javadoc Generated Documentation is available 
@@ -18,23 +20,32 @@ package edu.umuc.cmis141.helloworlddemo;
  */
 public class App
 {
+
     /**
-     * The intial point of execution for the HelloWorldDemo.
      *
-     * @param args The array allows passing arguments at runtime.
+     * The main entry point to the program.
+     *
+     * This method encompasses all INPUT/OUTPUT.
+     * For CALCULATION steps @see #getMessage() getMessage().
+     *
+     * @param args The array of String arguments passed in at runtime.
+     *
+     * @return void
      *
      */
     public static void main( String[] args )
     {
         System.out.println( App.getMessage() );
-    }
+    } // End of main method.
 
     /**
+     *
      * The message that will be displayed to the end user.
      *
-     * @return String The String output.
+     * This method ecompasses all CALCULATIONS.
+     * For INPUT/OUTPUT steps @see #main(String[]) main(String[]).
      *
-     * @see #main(String[]) main
+     * @return The String output.
      *
      */
     public static String getMessage() {
@@ -48,5 +59,6 @@ public class App
           + "\n\tJavadoc"
           + "\n\nIf you have a github account I'd love to follow you! Mine "
           + "is BenBunk or http://github.com/benbunk\n";
-    }
-}
+    } // End of getMessage method.
+
+} // End of App class.

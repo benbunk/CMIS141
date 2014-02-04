@@ -1,4 +1,6 @@
 /**
+ * HelloWorld Discussion Assignment.
+ *
  * The HelloWorldDemo program is built to display a message to the end user.
  *
  * Javadoc Generated Documentation is available 
