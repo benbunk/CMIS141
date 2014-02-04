@@ -3,8 +3,8 @@
  *
  * The HelloWorldDemo program is built to display a message to the end user.
  *
- * Javadoc Generated Documentation is available 
- * @see <a href="https://github.com/benbunk/CMIS141/HelloWorldDemo/target/apidocs/index.html">here.</a>
+ * Javadoc Generated Documentation is available:
+ * http://benbunk.github.io/CMIS141/HelloWorldDemo/project-reports.html
  *
  * @author Benjamin Bunk
  * HelloWorldDemo
@@ -55,6 +55,8 @@ public class AppTest
           + "\n\tMaven"
           + "\n\tJUnit"
           + "\n\tJavadoc"
+          + "\n\tFindBugs - From UMD :-)"
+          + "\n\tCheckStyle"
           + "\n\nIf you have a github account I'd love to follow you! Mine "
           + "is BenBunk or http://github.com/benbunk\n", App.getMessage());
     }
