@@ -12,6 +12,9 @@ Cheat Sheet
   mvn test
 ```
 ```bash
+  mvn javadoc:javadoc
+```
+```bash
   mvn package
 ```
 ```bash
@@ -82,9 +85,57 @@ CMIS140
             umuc
               assignment1
                 fileTest.java
-    res
-    build
-    docs
   Assignment2
   Assignment3
+  docs
+  INSTALL.md
+  README.md
+  NOTES.md
+</pre>
+
+Maven Example pom.xml
+=====================
+
+This example POM includes javadoc and base encoding that isn't included in the archetype getting started.
+
+<pre>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>edu.umuc.cmis141.helloworlddemo</groupId>
+  <artifactId>HelloWorldDemo</artifactId>
+  <packaging>jar</packaging>
+  <version>1.0-DEV</version>
+  <name>HelloWorldDemo</name>
+  <url>http://maven.apache.org</url>
+  <properties>
+      <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+      <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+  </properties>
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>3.8.1</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+  <build>
+  <plugins>
+    <plugin>
+      <groupId>org.apache.maven.plugins</groupId>
+      <artifactId>maven-javadoc-plugin</artifactId>
+      <version>2.9.1</version>
+      <executions>
+        <execution>
+          <id>attach-javadocs</id>
+          <goals>
+            <goal>jar</goal>
+          </goals>
+        </execution>
+      </executions>
+    </plugin>
+  </plugins>
+</build>
+</project>
 </pre>
