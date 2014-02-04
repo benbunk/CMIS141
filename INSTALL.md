@@ -21,6 +21,11 @@ Cheat Sheet
   mvn clean 
 ```
 
+2. Java
+```bash
+  java -cp "target/HelloWorldDemo-1.0-DEV.jar" edu.umuc.cmis141.helloworlddemo.App
+```
+
 Pre-Requisite Software
 ======================
 
