@@ -3,7 +3,7 @@ Cheat Sheet
 
 1. Maven
 ```bash
-  mvn archetype:generate -DgroupId=com.mycompany.app -DartifactId=my-app -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
+  mvn archetype:generate -DgroupId=edu.umuc.cmis141.helloworlddemo -DartifactId=HelloWorldDemo -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false -Dversion=1.0-DEV
 ```
 ```bash
   mvn compile
