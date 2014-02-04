@@ -29,6 +29,8 @@ Coding Style for this Class
 
 ```java
 /**
+ * [Assignment Name]
+ * [Description of the Program]
  *
  * @author Benjamin Bunk
  * [Name of App]
@@ -42,6 +44,14 @@ Coding Style for this Class
 Comments on the opening and closing braces are encouraged by the professor.
 
 ```java
+/**
+ * The main entry point to the program.
+ *
+ * This method encompasses all INPUT/OUTPUT.
+ * For CALCULATION @see #getMessage()
+ *
+ * @param args  The array of String arguments passed in at runtime.
+ */
 public static void main (String[] args) { // This is the beginning of Package.main method.
   // Input/Ouput/Logic Here.
 } // End of main method.
