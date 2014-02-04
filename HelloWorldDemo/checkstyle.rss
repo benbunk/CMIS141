@@ -3,7 +3,7 @@
 <rss version="0.91">
   <channel>
     <title>HelloWorld Discussion Assignment. - Checkstyle report</title>
-    <link>https://github.com/benbunk/CMIS141/HelloWorldDemo</link>
+    <link>https://github.com/benbunk/CMIS141/tree/master/HelloWorldDemo</link>
     <description>HelloWorld Discussion Assignment. - Checkstyle report</description>
     <language>en-us</language>
     <copyright>&#169;2014</copyright>
@@ -13,9 +13,9 @@
              Warnings: 0,
              Infos: 0
       </title>
-            <link>https://github.com/benbunk/CMIS141/HelloWorldDemo/checkstyle.html</link>
+            <link>https://github.com/benbunk/CMIS141/tree/master/HelloWorldDemo/checkstyle.html</link>
       <description>
-        <p>Click <a href="https://github.com/benbunk/CMIS141/HelloWorldDemo/checkstyle.html">here</a> for the full Checkstyle report.</p>
+        <p>Click <a href="https://github.com/benbunk/CMIS141/tree/master/HelloWorldDemo/checkstyle.html">here</a> for the full Checkstyle report.</p>
 
         <table summary="Files" boder="1">
           <thead>
@@ -29,7 +29,7 @@
           <tbody>
                           <tr>
                 <td>
-                  <a href="https://github.com/benbunk/CMIS141/HelloWorldDemo/checkstyle.html#edu.umuc.cmis141.helloworlddemo.App.java">edu/umuc/cmis141/helloworlddemo/App.java</a>
+                  <a href="https://github.com/benbunk/CMIS141/tree/master/HelloWorldDemo/checkstyle.html#edu.umuc.cmis141.helloworlddemo.App.java">edu/umuc/cmis141/helloworlddemo/App.java</a>
                 </td>
                 <td>
                   0
