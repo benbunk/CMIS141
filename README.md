@@ -38,9 +38,11 @@ Coding Style for this Class
 ```
 
 2. Comments
-  Comments on the opening and closing braces are encouraged by the professor.
-    ```java
-    public static void main (String[] args) { // This is the beginning of Package.main method.
-      // Input/Ouput/Logic Here.
-    } // End of main method.
-    ```
+
+Comments on the opening and closing braces are encouraged by the professor.
+
+```java
+public static void main (String[] args) { // This is the beginning of Package.main method.
+  // Input/Ouput/Logic Here.
+} // End of main method.
+```
