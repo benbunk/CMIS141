@@ -1,3 +1,4 @@
+
 UMUC CMIS141 
 Introduction to Java Programming
 by Y. Daniel Liang
@@ -12,10 +13,10 @@ An algorithm determines how a problem is solved by listing the actions that need
 
 Symbols represent variables in a program. A variable represents a value stored in memory.
 	
-	For instance:
-	```java
-	int x = 1;
-	```
+For instance:
+```java
+int x = 1;
+```
 
 Data types let the compiler know what the symbol (variable) represent.
 
