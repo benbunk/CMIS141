@@ -71,9 +71,8 @@ All programs must be thoroughly tested before they are sold or submitted for a g
 How do I write a test plan?
 
 BEFORE you begin to write pseudocode and long before you write any code for the program, you must complete a fully-developed test plan. This is absolutely necessary. If you create the test plan later, coding problems or language issues may prejudice your open-mindedness. That is, you may not find all of the boundary cases or "tricky" inputs if you subconsciously put them out of your mind. It is always necessary to make the test plan by closely examining the program's specifications. 
-   `
-   Note that you must include a column in your test plan that explains why each test plan item was included. You must also number the test plan items. It is fine and even advisable to list more than one example of each kind of test plan item (i.e. boundary, normal, error-checking, etc.)
-   `
+   
+> Note that you must include a column in your test plan that explains why each test plan item was included. You must also number the test plan items. It is fine and even advisable to list more than one example of each kind of test plan item (i.e. boundary, normal, error-checking, etc.)
 
 Example:
 
