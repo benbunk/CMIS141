@@ -3,6 +3,11 @@ CMIS141
 
 Collection of code from UMUC CMIS 141.
 
+Disclaimer
+===
+
+These are my personal notes about this course. In some cases they may appear to be similar to entries in the syllabus, course content, instructor hand outs, book, etc. In all cases they are snapshots of any given source document from the time I copied them and in most cases they have been heavily modified and because of this should not be used in place of the original/current version of the source documents.
+
 Grading
 =======
 
