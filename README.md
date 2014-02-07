@@ -60,6 +60,18 @@ public static void main (String[] args) { // This is the beginning of Package.ma
 Test Plans
 ===
 
+Short List
+
+1. BEFORE you begin to write pseudocode and long before you write any code for the program, you must complete a fully-developed test plan.
+2. Should contain 5 sets of possible inputs. (must have enough sets to test correctly, ie - more sets)
+2. Exact output must be shown in the output column.
+3. Boundary cases should be included.
+4. Special cases should be included.
+5. If the program handles poor user input include a bad entry to verify it works.
+6. Must include an explanation for why the test case is included (i.e. boundary, normal, error-checking, special, etc.)
+7. More then one example of each type of test is advisable.
+
+
 Test plans are used to test computer programs during and after development. A test plan is a set of possible inputs along with their associated expected outputs. A test plan should contain at least 5 sets of possible inputs for programmers in first and second-year programming courses. However, a test plan must contain enough sets of possible inputs to thoroughly test the program and its algorithm. The test plan consists of a table which is broken up into main columns, possible inputs and expected outputs. Within the possible inputs column, there must be subheadings and columns for all of the individual items that are inputted by the user or an external file in the order that they are inputted. Within the expected outputs part of the test plan, you must identify the exact output that prints or displays across from their corresponding entries in the possible inputs column.
 
 When you determine the possible inputs that a user (or a file) may enter, you must think about all of the possible "boundary" cases. Each boundary case should have an entry in the possible inputs column. For example, if the user is expected to enter a Celsius temperature, you should include the lowest legal centrigrade temperature which is -276 degrees. While there is no upper limit to possible Celsius temperatures, you should include the boiling point of water (100 degrees) and maybe another entry higher than that. You should also include "special" cases such as the freezing point of water (0 degrees.) A test plan must also include a few "normal" input cases. If you program includes error-checking (which prevents the user from inputting bad data), you should include a test plan item that simulates bad entry. For example, if the user is supposed to enter an integer, you should include the possible inputs of 4.3 and "zero".
