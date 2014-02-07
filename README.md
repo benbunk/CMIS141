@@ -81,10 +81,9 @@ Original Program Specification:
 
 Write a program that computes the area of a rectangle when the user to input two integer numbers between or including 0 and 20. It will print out the area of the rectangle along with an appropriate message.
 
-Test Plan
----
-Test Case | Possible Inputs | | Expected Output | Reason
-| --- | --- | --- | --- | --- |
+
+Test Case | Possible Inputs || Expected Output | Reason
+--- | --- | --- | --- | ---
 | | width | length | | |
 1. | 3 | 12 | "The area is 36" | normal case
 2. | 0 | 0 | "The area is 0" | lower boundary case
@@ -92,3 +91,4 @@ Test Case | Possible Inputs | | Expected Output | Reason
 4. | 0 | 20 | "The area is 0" | mixed boundary case
 5. | 20 | 0 | "The area is 0" | mixed boundary case
 6. | -2 | 5 | "Please input another width. " | error-checking
+[Test Plan]
