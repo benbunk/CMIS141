@@ -118,6 +118,11 @@ Benefits of constants:
 2. Changing the value in a single location.
 3. Easier to read if given a descriptive name.
 
+Named constants can contain expressions in their assignment. For example:
+```java
+final int CIRCUMFERANCE = Math.pow(PI * 1.2, 2);
+```
+
 2.8 Naming Conventions
 ===
 
