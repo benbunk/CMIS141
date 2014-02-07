@@ -83,7 +83,7 @@ Write a program that computes the area of a rectangle when the user to input two
 
 Test Plan
 ---
-Test Case | Possible Inputs | Expected Output | Reason
+Test Case | Possible Inputs | | Expected Output | Reason
 | --- | --- | --- | --- | --- |
 | | width | length | | |
 1. | 3 | 12 | "The area is 36" | normal case
