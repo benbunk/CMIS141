@@ -214,7 +214,7 @@ System.currentTimeMillis();
 2.15 Numeric Type Conversion
 ===
 
-Ints can be converted to floats automatically.
+Ints can be converted to floats automatically. Floats can be converted to ints with an explicit cast.
 
 Narrowing types is allowed but requires a cast statement. A compiler warning is thrown if the cast is not done.
 ```java
@@ -229,3 +229,90 @@ Augmented expressions of type x1 op= x2 has an implicit cast to the type of x1 (
 int x = 1;
 x += 4.5;
 ```
+
+2.16 Software Development Lifecycle
+===
+
+The software development lifecycle is a multi-stage process that includes:
+
+1. Requirements Specification
+2. System Analysis
+3. System Design
+4. Implementation
+5. Testing
+6. Deployment
+7. Maintenance
+
+2.17 Character Data Types and Operations
+===
+
+A string literal is enclosed in "" and character literals are enclosed in ''.
+
+2.17.1 Unicode ASCII code.
+===
+
+ASCII characters are the original 16 bit or 65,536 characters the char type was intended for. 
+
+Unicode adds support for 1,112,064 characters. Anything beyond the original 16-bit char's are condisered supplmentary char's.
+
+Java supports Unicode supplmentary char's.
+
+16 bit unicode is constructed with:
+
+1. Two  bytes
+2. preceded by \u
+3. expressed as four hexadecimal digits.
+
+```java
+// Welcome in Chinese.
+String welcome = "\u6b22\u8FCE";
+
+//Equivalent
+char letter1 = 'a';
+char letter2 = '\u0041';
+```
+
+2.17.2 Casting between char and Numeric types
+===
+
+char can be cast into any numeric type.
+
+When an integer is cast into a char only the lower 16 bits are cast.
+Example:
+
+```java
+char ch = (char)0xAB0041; // The lower 16 bits hex code 0041 is assigned to ch.
+System.out.println(ch);   // ch is character A
+```
+
+Floating points are first cast to an int and then into char.
+
+When casting from char to into a numeric type it uses the Unicode number.
+
+Casting is implicit between char and any number that can hold the value but must be explicit when casting a char with a value larger then the number being casted into.
+
+2.18 String Type
+===
+
+String is not a primitive in Java. It is considered a reference type.
+
+2.19 Input Dialogs
+===
+
+```java
+//Basic.
+String input = JOptionPane.showInputDialog("Enter an input");
+
+//Complicated.
+String input = JOptionPane.showInputDialog(null, "Enter an input", "Input Dialog Title", JOptionPane.QUESTION_MESSAGE);
+```
+
+2.19.1 Converting Strings to Numbers
+===
+
+To convert strings into numbers use the Integer.parseInt() method. 
+
+Other methods include Double.parseDouble().
+
+
+
