@@ -107,14 +107,14 @@ This example POM includes javadoc and base encoding that isn't included in the a
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>edu.umuc.cmis141.helloworlddemo</groupId>
-  <artifactId>HelloWorldDemo</artifactId>
+  <groupId>edu.umuc.cmis141.homework1</groupId>
+  <artifactId>Homework1</artifactId>
   <packaging>jar</packaging>
   <version>1.0-DEV</version>
   
-  <name>HelloWorld Discussion Assignment.</name>
-  <description>The HelloWorldDemo program is built to display a message to the end user.</description>
-  <url>https://github.com/benbunk/CMIS141/tree/master/HelloWorldDemo</url>
+  <name>Homework1 Assignment.</name>
+  <description>The Homework1 program is built to display the area of a circle.</description>
+  <url>https://github.com/benbunk/CMIS141/tree/master/Homework1</url>
 
   <issueManagement>
     <url>https://github.com/benbunk/CMIS141/issues</url>
@@ -168,6 +168,7 @@ This example POM includes javadoc and base encoding that isn't included in the a
           <message>Building site for ${project.version}</message>
           <server>github</server>
           <path>${project.artifactId}</path>
+          <merge>true</merge>
         </configuration>
         <executions>
           <execution>
@@ -201,7 +202,7 @@ This example POM includes javadoc and base encoding that isn't included in the a
             <plugin>
               <groupId>org.apache.maven.plugins</groupId>
               <artifactId>maven-surefire-report-plugin</artifactId>
-              <version>2.6</version>
+              <version>2.16</version>
             </plugin>
             <plugin>
               <groupId>org.apache.maven.plugins</groupId>
@@ -225,7 +226,7 @@ This example POM includes javadoc and base encoding that isn't included in the a
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
-      <version>3.8.1</version>
+      <version>4.11</version>
       <scope>test</scope>
     </dependency>
   </dependencies>
