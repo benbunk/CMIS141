@@ -116,6 +116,8 @@ The switch statement must yield a value:
 
 A conditional expression evaluates an expression based on a condition.
 
+Because logical and relational operators will always evaluate to true or false, the results of using a conditional operator can be stored in a boolean variable.
+
 It is in the form of:
 
 ```java
