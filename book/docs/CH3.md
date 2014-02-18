@@ -144,6 +144,9 @@ To output a % instead of using it as a format specifier use %%. (Instead of slas
   // ____1234____Java_____5.6
 ```
 
+Quick Start Guide - 
+    http://web.cerritos.edu/jwilson/SitePages/java_language_resources/Java_printf_method_quick_reference.pdf
+
 3.18 Confirmation Dialogs
 ===
 
