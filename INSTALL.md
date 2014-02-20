@@ -12,10 +12,7 @@ Cheat Sheet
   mvn test
 ```
 ```bash
-  mvn javadoc:javadoc
-```
-```bash
-  mvn package
+  mvn site
 ```
 ```bash
   mvn clean 
@@ -25,21 +22,6 @@ Cheat Sheet
 ```bash
   java -cp "target/HelloWorldDemo-1.0-DEV.jar" edu.umuc.cmis141.helloworlddemo.App
 ```
-
-Pre-Requisite Software
-======================
-
-1. IDE
-  Sublime Text (Tabs = 4 spaces)
-
-2. Build Tools
-  Java 7
-  Maven
-  Git
-  GitHub
-  Travis-CI
-
-3. 
 
 Pre-Requisite Reading
 ======================
@@ -100,7 +82,7 @@ CMIS140
 Maven Example pom.xml
 =====================
 
-This example POM includes javadoc and base encoding that isn't included in the archetype getting started.
+This example POM includes javadoc, github site, checkstyle, findbugs and base encoding that isn't included in the archetype getting started.
 
 ```XML
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
