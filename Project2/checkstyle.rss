@@ -9,7 +9,7 @@
     <copyright>&#169;2014</copyright>
     <item>
       <title>File: 1,
-             Errors: 11,
+             Errors: 16,
              Warnings: 0,
              Infos: 0
       </title>
@@ -29,7 +29,7 @@
           <tbody>
                           <tr>
                 <td>
-                  <a href="https://github.com/benbunk/CMIS141/tree/master/Project2/checkstyle.html#edu.umuc.cmis141.project2.App.java">edu/umuc/cmis141/project2/App.java</a>
+                  <a href="https://github.com/benbunk/CMIS141/tree/master/Project2/checkstyle.html#edu.umuc.cmis141.project2.BenjaminBunkp2.java">edu/umuc/cmis141/project2/BenjaminBunkp2.java</a>
                 </td>
                 <td>
                   0
@@ -38,7 +38,7 @@
                   0
                 </td>
                 <td>
-                  11
+                  16
                 </td>
               </tr>
                       </tbody>
