@@ -33,15 +33,21 @@ Coding Style for this Class
 1. File Description
 
 ```java
-/**
- * [Assignment Name]
- * [Description of the Program]
- *
- * @author Benjamin Bunk
- * [Name of App]
- * CMIS 141 6980 Introductory Programming (2142)
- * [Date]
+/*
+ * @Title:  [Project 2]
+ * @Author: [Benjamin Bunk]
+ * @Date:   [date]
+ * Purpose: [Project summary here.]
  */
+
+// Never include package statements.
+
+import javax.swing.JOptionPane;
+
+/**
+ * This is the main class for [Project 2].
+ */
+public final class App {
 ```
 
 2. Comments
@@ -52,13 +58,16 @@ Comments on the opening and closing braces are encouraged by the professor.
 /**
  * The main entry point to the program.
  *
- * This method encompasses all INPUT/OUTPUT.
- * For CALCULATION @see #getMessage()
+ * This method initiates all INPUT/OUTPUT/CALCULATIONS.
  *
  * @param args  The array of String arguments passed in at runtime.
  */
 public static void main (String[] args) { // This is the beginning of Package.main method.
-  // Input/Ouput/Logic Here.
+  /////////////////INPUT SECTION///////////////////////////////
+
+  /////////////////CALCULATION SECTION/////////////////////////
+
+  /////////////////OUTPUT SECTION//////////////////////////////
 } // End of main method.
 ```
 
