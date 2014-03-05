@@ -49,7 +49,7 @@ public final class BenjaminBunkp2 {
         /////////////////INPUT SECTION///////////////////////////////
 
         // Loop to get input until sentinel value of 999 is read.
-        while ( (input = BenjaminBunkp2.getInput()) != 999) {
+        while ((int) (input = BenjaminBunkp2.getInput()) != 999) {
             // Incrememnt the static class variable Count.
             BenjaminBunkp2.count++;
 
@@ -58,14 +58,11 @@ public final class BenjaminBunkp2 {
         }
 
         /////////////////CALCULATION SECTION/////////////////////////
-
-        // Calculate the average to be shown to the user.
         double average = BenjaminBunkp2.getAverage();
 
         /////////////////OUTPUT SECTION//////////////////////////////
-
-        // Show the results to the user.
-        BenjaminBunkp2.showResults(BenjaminBunkp2.count, BenjaminBunkp2.sum, average);
+        BenjaminBunkp2.showResults(BenjaminBunkp2.count,
+                                   BenjaminBunkp2.sum, average);
 
     } // End method main.
 
@@ -73,11 +70,12 @@ public final class BenjaminBunkp2 {
     /**
      * Get input from the user with JOptionPane dialog.
      *
-     * @return The double value of the user input.
+     * @return Return the double value of the user input.
      */
     public static double getInput() {
         // Show Dialog.
-        String input = JOptionPane.showInputDialog(null, "Please enter a number (Enter 999 to show results).");
+        String input = JOptionPane.showInputDialog(null,
+            "Please enter a number (Enter 999 to show results).");
 
         // Convert to Double.
         Double numericalValue = Double.parseDouble(input);
@@ -90,9 +88,9 @@ public final class BenjaminBunkp2 {
      * Incremement the sum of all inputs with the given input.
      *
      * @param input Double representing the next value to be added
-     *              to @see #BenjmaminBunkp2.sum.
+     *              to the sum.
      *
-     * @return Sum of all inputs.
+     * @return The current Sum.
      */
     public static double addToSum(double input) {
 
@@ -105,7 +103,7 @@ public final class BenjaminBunkp2 {
     } // End method addToSum.
 
     /**
-     * Return the average of BenjaminBunkp2.sum and BenjaminBunkp2.count.
+     * Return the average of all inputs.
      *
      * @return average Double representing the average of all inputs.
      */
@@ -116,7 +114,7 @@ public final class BenjaminBunkp2 {
 
     /**
      * Output the count, sum, and average based on the input into this method.
-     * If the sum parameter is greater then 100 output a warning.
+     * If the sum is greater then 100 output a warning.
      *
      * @param count Integer representing the total count of inputs.
      * @param sum Double representing the sum of the inputs.
@@ -124,7 +122,8 @@ public final class BenjaminBunkp2 {
      */
     public static void showResults(double count, double sum, double average) {
         if (sum > 100) {
-            JOptionPane.showMessageDialog(null, "Values have exceeded a sum of 100.");
+            JOptionPane.showMessageDialog(null,
+                "Values have exceeded a sum of 100.");
         }
         else {
             // Output the count, the sum, and the average.

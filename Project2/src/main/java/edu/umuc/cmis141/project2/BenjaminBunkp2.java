@@ -51,7 +51,7 @@ public final class BenjaminBunkp2 {
         /////////////////INPUT SECTION///////////////////////////////
 
         // Loop to get input until sentinel value of 999 is read.
-        while ( (int)(input = BenjaminBunkp2.getInput()) != 999) {
+        while ((int) (input = BenjaminBunkp2.getInput()) != 999) {
             // Incrememnt the static class variable Count.
             BenjaminBunkp2.count++;
 
@@ -90,7 +90,7 @@ public final class BenjaminBunkp2 {
      * Incremement the sum of all inputs with the given input.
      *
      * @param input Double representing the next value to be added
-     *              to the sum. @see BenjaminBunkp2#sum
+     *              to the sum.
      *
      * @return The current Sum.
      */
@@ -105,8 +105,7 @@ public final class BenjaminBunkp2 {
     } // End method addToSum.
 
     /**
-     * Return the average of @see BenjaminBunkp2#sum and 
-     * @see BenjaminBunkp2#count.
+     * Return the average of all inputs.
      *
      * @return average Double representing the average of all inputs.
      */
