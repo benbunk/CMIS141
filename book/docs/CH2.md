@@ -142,7 +142,7 @@ long | 64-bit signed
 float (single precision) | 32-bit IEEE 754
 double (double precision) | 64-bit IEEE 754
 
-`IEEE 754 is a standard approved aby the Institue of Electrical and Electronics Engineers for representing floating-point numbers on computers.`
+`IEEE 754 is a standard approved by the Institue of Electrical and Electronics Engineers for representing floating-point numbers on computers.`
 
 The double class has double the precision of the float class and should normally be used instead of float for accuracy.
 
